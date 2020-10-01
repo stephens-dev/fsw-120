@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #8A7A75;
+}
+.box {
+  display: grid;
+  grid-template-areas: 'place place price price time time'; 
+  justify-content: space-between;
+    
+
+}
+h1 {
+  grid-area: place;
+  background-color: #85758A;
+  width: 350px;
+}
+.item1 {
+  grid-area: price;
+  background-color: #75858A;
+  width: 70px;
+}
+.item2 {
+  grid-area: time;
+  background-color: #7A8A75;
+  width: 120px;
+}
