@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-areas: 'box1 box2'
+                       'box3 box4';
+}
+.box1 {
+  grid-area: box1;
+  /* background-color: green; */
+  height: 200px;
+}
+.box2 {
+  grid-area: box2;
+  background-color: blue;
+  height: 200px;
+  
+}
+.box3 {
+  grid-area: box3;
+  background-color: coral;
+  height: 200px;
+}
+.box4 {
+  grid-area: box4;
+  background-color: crimson;
+  height: 200px;
+}
