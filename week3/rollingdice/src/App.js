@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Dicebox from './Dicebox'
 
 class App extends React.Component {
   constructor() {
@@ -13,7 +14,7 @@ class App extends React.Component {
       num5: 0
     }
     this.handleClick = this.handleClick.bind(this)
-    this.prevent = this.prevent.bind(this)
+    
   }
 
     handleClick() {
@@ -24,19 +25,19 @@ class App extends React.Component {
       this.setState({num5: Math.floor(Math.random() * 6)})
       
     }
-    prevent() {
-      
-    }
+    
 
     render() {
       
         return (
           <div>
-            <h1 onClick={this.prevent}>{this.state.num1}</h1>
-            <h1 >{this.state.num2}</h1>
-            <h1>{this.state.num3}</h1>
-            <h1>{this.state.num4}</h1>
-            <h1 >{this.state.num5}</h1>
+           
+            <Dicebox dice={this.state.num1}/>
+            <Dicebox dice={this.state.num2}/>
+            <Dicebox dice={this.state.num3}/>
+            <Dicebox dice={this.state.num4}/>
+            <Dicebox dice={this.state.num5}/>
+           
             <button onClick={this.handleClick}>Random</button>
           </div>
         )

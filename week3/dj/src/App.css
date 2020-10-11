@@ -10,20 +10,27 @@
   grid-area: box1;
   /* background-color: green; */
   height: 200px;
+  border: 2px solid coral;
+
 }
 .box2 {
   grid-area: box2;
   background-color: blue;
   height: 200px;
-  
+  border: 2px solid coral;
+
 }
 .box3 {
   grid-area: box3;
   background-color: coral;
   height: 200px;
+  border: 2px solid coral;
+
 }
 .box4 {
   grid-area: box4;
   background-color: crimson;
   height: 200px;
+  border: 2px solid coral;
+
 }
