@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+form {
+  display: grid;
+  grid-template-areas: 'first first last last'
+                        'email email birth birth'
+                        'phone phone food food'
+                        'area area area area';
+}
+.first {
+ grid-area: first; 
+}
+.last {
+  grid-area: last;
+}
+.email {
+  grid-area: email;
+}
+.birth {
+  grid-area: birth;
+}
+.phone {
+  grid-area: phone;
+}
+.food {
+  grid-area: food;
+}
+.area {
+  grid-area: area;
+}
