@@ -8,24 +8,81 @@ form {
                         'phone phone food food'
                         'area area area area';
 }
+#badge {
+  display: grid;
+  grid-template-areas: 'first first first first'
+                        'email email birth birth'
+                        'phone phone food food'
+                        'area area area area';
+  border: 1px solid black;
+  width: 900px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 14%;
+}
+button {
+margin-left: 48%;
+}
 .first {
  grid-area: first; 
+ border: 1px solid black;
+
 }
 .last {
   grid-area: last;
+  border: 1px solid black;
+
 }
 .email {
   grid-area: email;
+  border: 1px solid black;
+
 }
 .birth {
   grid-area: birth;
+  border: 1px solid black;
+
 }
 .phone {
   grid-area: phone;
+  border: 1px solid black;
+
 }
 .food {
   grid-area: food;
+  border: 1px solid black;
+
 }
 .area {
   grid-area: area;
+  border: 1px solid black;
+
 }
+
+.first1 {
+  grid-area: first; 
+ 
+ }
+ 
+ .email1 {
+   grid-area: email;
+ 
+ }
+ .birth1 {
+   grid-area: birth;
+ 
+ }
+ .phone1 {
+   grid-area: phone;
+ 
+ }
+ .food1 {
+   grid-area: food;
+ 
+ }
+ .area1 {
+   grid-area: area;
+   border: 1px solid black;
+   width: 900px;
+ }
+ 
