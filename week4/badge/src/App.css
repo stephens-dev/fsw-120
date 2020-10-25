@@ -14,7 +14,7 @@ form {
                         'email email birth birth'
                         'phone phone food food'
                         'area area area area';
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 900px;
   text-align: center;
   margin-top: 5%;

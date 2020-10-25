@@ -37,7 +37,7 @@ class App extends React.Component {
     let g = document.createElement("h1")
     let c = document.createElement("h1")
 
-    a.textContent = "Name:" + " "+ this.state.firstName + this.state.lastName
+    a.textContent = "Name:" + " "+ this.state.firstName +" "+ this.state.lastName
     p.append(a)
     
     c.textContent = "Email:" +" "+ this.state.email
