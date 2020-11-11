@@ -76,7 +76,7 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <div>
+        <div className="inputs">
           <input
           placeholder="Title"
           id="Title"
@@ -101,7 +101,7 @@ class App extends React.Component {
           
         </div>
           {this.state.Postdata.map(blog => {
-    return <Tweet id={blog.id} Delete={this.Delete} key={blog.id} title={blog.title} content={blog.content} name={blog.name}/>
+    return <Tweet  id={blog.id} Delete={this.Delete} key={blog.id} title={blog.title} content={blog.content} name={blog.name}/>
   })}
       </div>
     )
